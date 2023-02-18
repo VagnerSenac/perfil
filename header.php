@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <style>
         .fundo {
+            min-height: 100vh;
             background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
                 linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
                 linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
@@ -25,13 +26,16 @@
         .active{
             font-weight: bold;
         }
+
+        .avatar {
+            border: 0.3rem solid rgba(#fff, 0.3);
+            margin-top: -6rem;
+            margin-bottom: 1rem;
+            max-width: 9rem;
+        }        
     </style>
 </head>
 
 <body>
-    <section class="vh-100 fundo">
-        <div class="container py-5 h-100">
-            <div class="row d-flex justify-content-center align-items-center h-100">
-                <div class="col col-lg-10">
-                    <div class="card">
-                        <div class="card-body p-5">
+    <main class="fundo">
+    

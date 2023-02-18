@@ -1,20 +1,22 @@
 <?php
 $msg = $_GET['msg'] ?? "";
 if($msg == ""){
-    //echo "<div id='my-alert' class='alert alert-info alert-dismissible fade show' role='altert'>Tarefa alterada com sucesso!<button data-bs-target='#my-alert' type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
-    $msg = "Seja Bem Vindo!";
+  $msg = "Bem vindo!";
 }
 if($msg == "alterado"){
-    //echo "<div id='my-alert' class='alert alert-info alert-dismissible fade show' role='altert'>Tarefa alterada com sucesso!<button data-bs-target='#my-alert' type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
-    $msg = "Tarefa alterada com sucesso!";
+    $msg = "Ferfil alterada com sucesso!";
 }
 if($msg == "inserido"){
-    //echo "<div id='my-alert' class='alert alert-info alert-dismissible fade show' role='altert'>Tarefa cadastrada!<button data-bs-target='#my-alert' type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
-    $msg = "Tarefa cadastrada com sucesso!";
+   $msg = "Ferfil cadastrada com sucesso!";
 }
 if($msg == "excluido"){
-    //echo "<div id='my-alert' class='alert alert-info alert-dismissible fade show' role='altert'>Tarefa Excluida!<button data-bs-target='#my-alert' type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
-    $msg = "Tarefa excluida com sucesso!";
+    $msg = "Ferfil excluida com sucesso!";
+}
+if($msg == "loginerro"){
+  $msg = "Usuário não encontrado";
+}
+if($msg == "erro_login"){
+  $msg = "Usuário não logado";
 }
 ?>
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
