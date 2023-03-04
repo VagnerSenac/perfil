@@ -5,7 +5,7 @@
   <div class="row pt-5">
   <?php  
   $n = 0;
-  for($n=0; $n < 10; $n++):
+  for($n=0; $n < 2; $n++):
   ?>
     <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-5">
       <div class="card">
