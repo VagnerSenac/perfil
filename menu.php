@@ -37,6 +37,9 @@
         <li class="nav-item">
           <a class="nav-link" href="index.php">Painel de Perfil</a>
         </li>
+        <li class="nav-item">
+        <a href="relatorio.php" class="btn btn-primary">Relatório</a>
+        </li>
       </ul>
       <!-- Left links -->
     </div>
