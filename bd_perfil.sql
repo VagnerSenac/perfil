@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 07-Mar-2023 às 02:22
--- Versão do servidor: 10.4.25-MariaDB
--- versão do PHP: 8.1.10
+-- Tempo de geração: 12-Mar-2023 às 23:11
+-- Versão do servidor: 10.4.24-MariaDB
+-- versão do PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -48,7 +48,7 @@ CREATE TABLE `t_perfil` (
 --
 
 INSERT INTO `t_perfil` (`id`, `nome`, `profissao`, `descricao`, `instagram`, `twitter`, `facebook`, `linkedin`, `youtube`, `senha`, `foto`, `fundo`, `email`) VALUES
-(3, 'Luke Skywalker', 'Jedi', 'Luke Skywalker é o protagonista da trilogia original da série Star Wars, faz participação em Star Wars: O Despertar da Força em Star Wars: Os Últimos Jedi. É interpretado pelo ator norte-americano Mark Hamill.', '', '', 'https://www.facebook.com/LukeSkywalkerOfStarWars/', 'https://www.linkedin.com/uas/login-submit', 'https://www.youtube.com/watch?v=IPBevIAv3Zo', 'e10adc3949ba59abbe56e057f20f883e', '90052483.jpg', 'img/fundo1.jpg', 'vagnerinfo@yahoo.com.br'),
+(3, 'Luke Skywalker', 'Jedi', 'Luke Skywalker é o protagonista da trilogia original da série Star Wars, faz participação em Star Wars: O Despertar da Força em Star Wars: Os Últimos Jedi. É interpretado pelo ator norte-americano Mark Hamill.', '', '', 'https://www.facebook.com/LukeSkywalkerOfStarWars/', 'https://www.linkedin.com/uas/login-submit', 'https://www.youtube.com/watch?v=IPBevIAv3Zo', 'e10adc3949ba59abbe56e057f20f883e', '1677887999.jpg', 'img/fundo1.jpg', 'vagnerinfo@yahoo.com.br'),
 (9, 'Yoda', 'Jedi', 'Medindo 76 centímetros de altura, Yoda é um membro de uma espécie de nome desconhecido. Ele foi o Grão Mestre da Ordem Jedi durante as Guerras Clônicas, um dos membros mais importantes do Alto Conselho Jedi nos últimos dias da República Galáctica, e um dos mais sábios e poderosos Jedi de todos os tempos. Tendo vivido por muito tempo (veio a falecer com aprox. 900 anos de idade).', 'https://www.instagram.com/babyyoda.official/', '', '', '', 'https://www.youtube.com/watch?v=bfmKtxZiB6I', 'e10adc3949ba59abbe56e057f20f883e', '1677888732.png', 'img/fundo3.jpg', 'vagner@yahoo.com.br');
 
 -- --------------------------------------------------------
